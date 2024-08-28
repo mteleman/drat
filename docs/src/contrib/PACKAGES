@@ -6,3 +6,13 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: velocyto.R
+Version: 0.6
+Depends: Matrix
+Imports: Rcpp (>= 0.12.13), MASS, mgcv, parallel, pcaMethods, abind, cluster, stats, grDevices, igraph, methods, hdf5r
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: Rtsne, BiocGenerics, Biostrings, GenomeInfoDb, GenomicAlignments, GenomicRanges, IRanges, data.table, Rsamtools, edgeR, h5
+License: GPL-3
+MD5sum: c3df8dbeeb5d93b7b5763912e70f49b6
+NeedsCompilation: yes
