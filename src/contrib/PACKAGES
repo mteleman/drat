@@ -1,0 +1,8 @@
+Package: WeightedCluster
+Version: 2.0
+Depends: R (>= 3.0.0), TraMineR (>= 2.0-6), cluster
+Imports: utils, RColorBrewer, foreach, progressr, future, doFuture, nnet, fastcluster, vegclust, lme4, margins
+Suggests: RUnit, knitr, isotone, vegan, lattice, rmarkdown, Cairo, progress, DirichletReg, betareg, fpc
+License: GPL (>= 2)
+MD5sum: f546c1a99c3d598049e19c696332df4d
+NeedsCompilation: yes
